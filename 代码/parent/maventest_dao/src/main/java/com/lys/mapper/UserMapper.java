@@ -4,6 +4,5 @@ import com.lys.domian.User;
 
 public interface UserMapper {
     User  findOne(int id);
-    User findAll();
 
 }
